@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MacroCoach",
+    "slug": "macro-coach",
+    "version": "0.1.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.macrocoach.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.macrocoach.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow MacroCoach to access your camera"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow MacroCoach to access your photos",
+          "cameraPermission": "Allow MacroCoach to use your camera"
+        }
+      ]
+    ]
+  }
+}

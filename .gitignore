@@ -1,0 +1,36 @@
+# Expo
+.expo/
+dist/
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.*
+yarn-error.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+.gradle/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pbxuser
+*.xcworkspace/
+
+# Secrets
+.env.secrets
+firebase-config.ts
